@@ -7,6 +7,7 @@ public class Husband {
 	public String name1;//This variable can be invoked in invoke.java
 	
     private String sex ;
+    protected String sex1;
     private int age ;
     private Wife wife;
     

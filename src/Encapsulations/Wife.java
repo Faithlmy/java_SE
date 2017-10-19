@@ -1,6 +1,13 @@
 package Encapsulations;
 
 public class Wife {
+	public static void main(String []args) {
+		Husband h = new Husband();
+		h.name1 = "faith";
+		h.sex1 = "male";
+		h.setSex("setMale");
+		h.setName("setFaith");
+	}
 	
     public String name;
     private int age;
@@ -25,7 +32,12 @@ public class Wife {
     }
 
     public void setAge(int age) {
-        this.age = age;
+    	if(age > 100 || age <= 0) {
+    		System.out.println("ERROR");
+    	}
+    	else {
+    		this.age = age;
+    	}
     }
 
     public void setHusband(Husband husband) {

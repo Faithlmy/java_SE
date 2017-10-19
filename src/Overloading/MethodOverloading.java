@@ -1,4 +1,4 @@
-package faithbaseone;
+package Overloading;
 
 /**
  * @author faith
@@ -9,6 +9,7 @@ package faithbaseone;
  *    argument types.
  *    
  * 3. Each overloaded method must take a unique list of argument types.
+ * 
  * 
  *
  */

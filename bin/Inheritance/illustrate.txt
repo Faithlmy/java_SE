@@ -1,0 +1,5 @@
+1.person1 person2 person3 is different class.
+2. Husband --> person1
+3. wife  --> person1
+4. son1 -->  person2
+5. son2 --> person3
