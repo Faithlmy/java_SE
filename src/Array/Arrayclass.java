@@ -3,6 +3,12 @@ package Array;
 import java.util.Arrays;
 import java.util.Random;
 import static java.lang.System.out;
+
+
+import AccessControl.Paccess2;
+import AccessControl.Package;
+
+
 /**
  * @author root
  *
@@ -16,7 +22,16 @@ public class Arrayclass {
 			a[i] = rd.nextInt(5);
 		}
 		out.println(Arrays.toString(a));
+		Package p = new Package();
+		p.P();
 		
+		
+
+		Paccess2 p1 = new Paccess2();
+		p1.Pub(20);
+//		Sun2 s = new Sun2();
+//		
+//		Hub2 h = new Hub2();
 		
 	}
 
