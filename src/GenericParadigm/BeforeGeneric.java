@@ -4,7 +4,7 @@ public class BeforeGeneric {
 	static class ArrayList{
 		private Object[] elements = new Object[0];
 		public Object get(int i) {
-			return elements[0];
+			return elements[i];
 		}
 		
 		public  void add(Object o) {
@@ -22,7 +22,6 @@ public class BeforeGeneric {
 		ArrayList stringValues=new ArrayList();
 		stringValues.add(1);
 		String str=(String) stringValues.get(0);
-		
 	}
 
 }
