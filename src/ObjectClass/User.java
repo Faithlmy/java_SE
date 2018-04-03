@@ -23,6 +23,7 @@ public class User {
 		this.age = age;
 	}
 	
+	@Override
 	public boolean equals(Object obj) {
 		if(obj == null || !(obj instanceof User))
 			return false;
