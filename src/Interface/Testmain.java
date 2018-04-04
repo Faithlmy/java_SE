@@ -5,6 +5,8 @@ public class Testmain {
 		iphone i = new iphone();
 		i.install();
 		i.work();
+		int r = i.write(2, 5);
+		System.out.println(r);
 		
 		computer c = new computer();
 		c.FunCom(2, 9);

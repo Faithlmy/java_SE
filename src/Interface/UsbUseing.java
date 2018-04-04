@@ -2,7 +2,7 @@ package Interface;
 
 //computer class
 class computer {
-	public void plug(usb u) {
+	public void plug(Usb u) {
 		u.install();
 		u.work();
 	}
@@ -13,7 +13,7 @@ class computer {
 
 
 // iphone class
-class iphone implements usb {
+class iphone implements Usb, DiskInterface {
 
 	@Override
 	public void install() {
@@ -27,12 +27,25 @@ class iphone implements usb {
 		System.out.println(" iphone work");
 		
 	}
+
+	@Override
+	public void read() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int write(int a, int b) {
+		// TODO Auto-generated method stub
+		return a * b;
+	}
+
 	
 }
 
 
 //mp3 class
-class mp3 implements usb{
+class mp3 implements Usb{
 
 	@Override
 	public void install() {

@@ -1,6 +1,6 @@
 package Interface;
 
-interface usb{
+public interface Usb{
 	public void install();
 	public void work();
 	
