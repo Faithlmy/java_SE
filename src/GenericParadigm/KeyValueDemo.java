@@ -7,9 +7,7 @@ public class KeyValueDemo<G> extends GenericInterfaceIm<G> {
 		Integer num = kv.getValue();
 		String name = kv.getKey();
 		System.out.println(num + " / " + name);
-		
 		//
-		
 		PhoneKeyValue pk = new PhoneKeyValue("huawei", 999);
 		String k = pk.getKey();
 		Integer v = pk.getValue();
@@ -17,8 +15,9 @@ public class KeyValueDemo<G> extends GenericInterfaceIm<G> {
 		System.out.println(v);
 		//
 		GenericInterfaceIm gi = new GenericInterfaceIm();
-//		G g = gi.doSometing();
-//		System.out.println(g);
+//		gi.doSometing()
+		Object g = gi.doSometing();
+		System.out.println("g= " + g);
 	}
 
 }

@@ -7,8 +7,7 @@ public class GenericInterfaceIm<G> implements GenericInterface<G> {
 	@Override
 	public G doSometing() {
 		// TODO Auto-generated method stub
-
-		return some;
+		return null;
 	}
 
 }
