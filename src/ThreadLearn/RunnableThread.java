@@ -1,10 +1,10 @@
 package ThreadLearn;
 
-public class ThreadImplete implements Runnable {
+public class RunnableThread implements Runnable {
 	
 	private String name;
 	
-	public ThreadImplete(String name) {
+	public RunnableThread(String name) {
 		this.name = name;
 	}
 

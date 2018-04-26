@@ -1,10 +1,10 @@
 package ThreadLearn;
 
-public class ThreadMy extends Thread {
+public class ExtendsThread extends Thread {
 	
 	private String name;
 	
-	public ThreadMy(String name) {
+	public ExtendsThread(String name) {
 		this.name = name;
 	}
 	
