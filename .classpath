@@ -3,6 +3,20 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="java/annotation"/>
+	<classpathentry kind="src" path="java/class"/>
+	<classpathentry kind="src" path="java/interface"/>
+	<classpathentry kind="src" path="java/thread"/>
+	<classpathentry kind="src" path="java/overloading"/>
+	<classpathentry kind="src" path="java/overriding"/>
+	<classpathentry kind="src" path="java/inheritance"/>
+	<classpathentry kind="src" path="java/encapsulation"/>
+	<classpathentry kind="src" path="java/generic"/>
+	<classpathentry kind="src" path="java/polymorphism"/>
+	<classpathentry kind="src" path="java/keywords"/>
+	<classpathentry kind="src" path="java/object"/>
+	<classpathentry kind="src" path="java/array"/>
+	<classpathentry kind="src" path="java/access"/>
+	<classpathentry kind="src" path="java/junit"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
