@@ -1,16 +1,5 @@
-1. The basic of data types:
-		   data type        bits
-			boolean          1
-			byte             8
-			char             16
-			short			16
-			int             32
-			long            64
-			float 			32
-			double			64
-			void 
+1. kw_this: using this.
 
-2. Reference data type
+2. kw_thisandsuper: using this and super.
 
-3. BigDecimal:
-	https://blog.csdn.net/Com_ma/article/details/80633676 
+3. kw_staic: Using static.
