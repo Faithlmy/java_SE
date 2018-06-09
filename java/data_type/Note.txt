@@ -1,0 +1,11 @@
+1. The basic of data types:
+		   data type        bits
+			boolean          1
+			byte             8
+			char             16
+			short			16
+			int             32
+			long            64
+			float 			32
+			double			64
+			void 

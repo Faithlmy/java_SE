@@ -17,6 +17,7 @@
 	<classpathentry kind="src" path="java/array"/>
 	<classpathentry kind="src" path="java/access"/>
 	<classpathentry kind="src" path="java/junit"/>
+	<classpathentry kind="src" path="java/data_type"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>

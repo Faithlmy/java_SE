@@ -1,3 +1,10 @@
+This is the note of Think of Java. Each folder has its own description.
+
+The order of reading is:
+1) type
+
+
+
 
 https://www.tutorialspoint.com/java/java_basic_datatypes.htm
 Environment setup
