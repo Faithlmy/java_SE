@@ -1,5 +1,0 @@
-1. kw_this: using this.
-
-2. kw_thisandsuper: using this and super.
-
-3. kw_staic: Using static.
