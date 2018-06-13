@@ -1,6 +1,10 @@
 package kw_static;
 
 public class TestStaic {
+	
+	  public static void printg(Object o){
+	        System.out.println(o);
+	    }
 
 	public static void main(String[] args) {
 		MyStaticOne ms1 = new MyStaticOne();
