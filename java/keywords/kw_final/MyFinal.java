@@ -1,7 +1,11 @@
 package kw_final;
 
 import static java.lang.System.*;
-public class MyFinal  {
+public class MyFinal extends eat {
+	
+	public  void p() {
+		System.out.println("hhh");
+	} 
 //	man m = new man();
 	public static void main(String[] args) {
 		  // final变量和普通变量的区别
@@ -22,6 +26,9 @@ public class MyFinal  {
 	      final String bb = getHello();
 	      String cc = bb + 2;
 	      out.println(aa == cc); // false
+	      
+	      MyFinal m = new MyFinal();
+	      m.p();
 	}
 	
 	 public static String getHello() {
@@ -48,3 +55,15 @@ class man{
 //		ob = new Object();
 	}
 }
+
+
+class eat{
+	public eat() {};
+	
+	public void p() {
+		System.out.println("hhh");
+	} 
+}
+
+
+
