@@ -14,6 +14,30 @@ public class MyContinue {
 		}
 	}
 }
+
+
+/*
+
+no continue is:
+ ccc
+xx
+mmm
+xx
+mmm
+xx
+mmm
+xx
+In if next con.
+mmm
+xx
+mmm
+xx
+mmm
+xx
+mmm
+ * 
+ */
+
 /*
  The continue res is:
 ccc
@@ -36,24 +60,3 @@ mmm
 
 
 
-/*
- 
-no continue is:
- ccc
-xx
-mmm
-xx
-mmm
-xx
-mmm
-xx
-In if next con.
-mmm
-xx
-mmm
-xx
-mmm
-xx
-mmm
- * 
- */
