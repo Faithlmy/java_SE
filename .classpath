@@ -24,6 +24,7 @@
 	<classpathentry kind="src" path="java/Hashtable"/>
 	<classpathentry kind="src" path="java/hashmap"/>
 	<classpathentry kind="src" path="java/vector"/>
+	<classpathentry kind="src" path="java/io"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
