@@ -22,7 +22,7 @@ public class ArraySize {
 		}
 		
 		//
-		int[]  k;
+		int[] k;
 		int[] k1 = new int[8];
 	}
 }

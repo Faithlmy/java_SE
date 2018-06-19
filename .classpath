@@ -21,6 +21,8 @@
 	<classpathentry kind="src" path="java/ifelsefordowhile"/>
 	<classpathentry kind="src" path="java/arrays"/>
 	<classpathentry kind="src" path="java/insertclass"/>
+	<classpathentry kind="src" path="java/Hashtable"/>
+	<classpathentry kind="src" path="java/hashmap"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
