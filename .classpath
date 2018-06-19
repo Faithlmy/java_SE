@@ -20,6 +20,7 @@
 	<classpathentry kind="src" path="java/data_types"/>
 	<classpathentry kind="src" path="java/ifelsefordowhile"/>
 	<classpathentry kind="src" path="java/arrays"/>
+	<classpathentry kind="src" path="java/insertclass"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
