@@ -25,8 +25,10 @@
 	<classpathentry kind="src" path="java/hashmap"/>
 	<classpathentry kind="src" path="java/vector"/>
 	<classpathentry kind="src" path="java/io"/>
+	<classpathentry kind="src" path="java/JVM"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/usr/java/jdk1.8.0_144/faithjar/cglib-3.2.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
