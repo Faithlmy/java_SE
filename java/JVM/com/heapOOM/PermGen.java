@@ -3,7 +3,7 @@ package com.heapOOM;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PermGen {
+public class PermGen{
 	
 	public static void main(String[] args) 
 	{

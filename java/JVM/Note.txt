@@ -1,0 +1,16 @@
+
+
+1. 垃圾收集算法
+	Mark-sweep(标记清楚法)
+	Copying(复制法)
+	Mark-Compact(标记整理法)
+	Generation Collection(分代收集法)
+	
+2. 垃圾收集器：
+	Serial
+	ParNew
+	Parallel Scavenge
+	CMS
+	Serial old
+	parallel old
+	G1
