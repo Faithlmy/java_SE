@@ -1,0 +1,8 @@
+1. 继承Thread (TestExtendsThread + Computer3)
+
+2. 实现Runnable接口(TestImplementRunnable + Compute2)
+
+区别：
+    1.Thread是单继承run()
+      Runnable是接口实现run()
+    2. Runnable可以实现资源共享

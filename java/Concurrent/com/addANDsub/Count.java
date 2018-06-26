@@ -1,5 +1,7 @@
 package com.addANDsub;
 
+import java.util.concurrent.TimeUnit;
+
 public class Count {
 
 	private int num = 0;
@@ -8,7 +10,8 @@ public class Count {
     public synchronized void add() {
         while (flag) {
             try {
-                wait();
+            	wait();
+//            	Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -24,6 +27,7 @@ public class Count {
         while (!flag) {
             try {
                 wait();
+//            	Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

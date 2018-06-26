@@ -51,6 +51,6 @@ public class ConcurrentPrimeFinder extends AbstractPrimeFinder{
 	}
 	public static void main(String[] args)
 	{
-		new ConcurrentPrimeFinder(10,100).timeAndCompute(10000000);
+		new ConcurrentPrimeFinder(2,8).timeAndCompute(10000000);
 	}
 }
