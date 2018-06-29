@@ -28,6 +28,8 @@
 	<classpathentry kind="src" path="java/JVM"/>
 	<classpathentry kind="src" path="java/Concurrent"/>
 	<classpathentry kind="src" path="java/network"/>
+	<classpathentry kind="src" path="java/Tomcat"/>
+	<classpathentry kind="src" path="java/others"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
