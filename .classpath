@@ -33,6 +33,7 @@
 	<classpathentry kind="src" path="java/collection"/>
 	<classpathentry kind="src" path="java/constructor"/>
 	<classpathentry kind="src" path="java/clone"/>
+	<classpathentry kind="src" path="Serializable"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
