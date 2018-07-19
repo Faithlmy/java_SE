@@ -15,6 +15,16 @@ public class TestMap {
 
 	@Test
 	public void ShowAll() {
+		/*
+		 * String strStringType="my string"; //创建一个字符串变量strStringType
+char[] chrCharArray; //创建一个字符数组chrCharArray
+chrCharArray = strStringType.toCharArray(); //将字符串变量转换为字符数组
+strStringType= String.valueOf(chrCharArray ); //将字符数组转换为字符串
+		 * */
+		String strType = "my string";
+		char[] chrArray;
+		chrArray = strType.toCharArray();
+		System.out.println(chrArray);
 //		Map<Integer, String> map = new HashMap<Integer, String>();
 //		List<String> list = null;
 //		map = CreateMap();
@@ -30,7 +40,7 @@ public class TestMap {
 //		ShowHashtable1(CreateHashtable());
 //		ShowHashtable2(CreateHashtable());
 //		ShowHashtable3(CreateHashtable());
-		ShowHashtable4(CreateHashtable());
+//		ShowHashtable4(CreateHashtable());
 	}
 	
 	/*=======================HashMap=========================================*/
@@ -134,6 +144,7 @@ public class TestMap {
 			System.out.println("key: " + entry.getKey() + ", value: " + entry.getValue());
 		}
 	}
+	
 	//Enumeration
 	public void ShowHashtable4(Hashtable<Integer, String> map) {
 		Enumeration<String> en = map.elements();
