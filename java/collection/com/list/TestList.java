@@ -1,7 +1,21 @@
 package com.list;
 
+/*
+ * Stack是基于数组实现的，是栈，它继承与Vector，特性是FILO（先进后出）
+ * 
+ * Vector:内部是数组数据结构，是同步的，100%延长数组，增删查询都很慢, 是线程安全的。
+
+   ArrayList:内部是数组数据结构，是不同步的，替代了Vector，50%延长数组，查询的数度快。
+
+   LinkedList:内部是链表数据结构，是不同步的，增删元素速度快, 可以被当做堆栈使用
+   
+   List基本上都是以Array为基础（LinkedList是以链表存储）。但是Set则是 在HashMap的基础上来实现的，
+   这个就是Set和List的根本区别。HashSet的存储方式是把HashMap中的Key作为Set的对应存储项。
+ * */
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 import org.junit.Test;
 
@@ -9,15 +23,16 @@ public class TestList {
 
 	@Test
 	public void TestAllList() {
-		char b = 'u';
-		int c = b;
-		System.out.println(c);
-		System.out.println((byte)b);
+//		char b = 'u';
+//		int c = b;
+//		System.out.println(c);
+//		System.out.println((byte)b);
 //		LetterToAscii("d");
 //		String letter = null;
 //		letter = NumberToLetter(1);
 //		int a = LetterToNumber("C");
 //		System.out.println(a);
+		CreateVoctor();
 	}
 	
 	/*
@@ -81,5 +96,17 @@ public class TestList {
 			i++;
 		}
 		return list;
+	}
+	
+	// Create vector
+	
+	public void CreateVoctor() {
+		List<String> list = new Vector<String>();
+		list.add("faith");
+		list.add("meng");
+		list.add("g");
+		list.add("meng");
+//		System.out.println(list.remove(1));
+		System.out.println(list);
 	}
 }
