@@ -36,6 +36,7 @@
 	<classpathentry kind="src" path="Serializable"/>
 	<classpathentry kind="src" path="java/othertools"/>
 	<classpathentry kind="src" path="java/anno"/>
+	<classpathentry kind="src" path="java/lambdaStream"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/Untitled.jar"/>
 	<classpathentry kind="lib" path="/home/faith/workspace/MyAdd.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
