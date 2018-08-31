@@ -1,4 +1,4 @@
-package com.vic.loop;
+package com.arrays1;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -18,14 +18,14 @@ import org.junit.Test;
 public class AllLoop {
 	
 	
-	// Stream APIÌá¹©ÁËÁ½¸ö¾²Ì¬·½·¨À´´Óº¯ÊýÉú³ÉÁ÷£ºStream.iterateºÍStream.generate  Á½ÖÖ·½·¨¶¼¿ÉÒÔ´´½¨ÎÞÏÞÁ÷
-//	1.µü´úiterate 
-//	µü´ú·¨´´½¨Á÷Í¨³£ÓÃÓÚ°´ÕÕÄ³¸ö´´½¨Ô­Ôò£¨ÀýÈçº¯Êý£©ÒÀ´ÎÉú³ÉÒ»ÏµÁÐÖµµÄÊ±ºò£¬¶øÇÒÎªÁË±ÜÃâÎÞÏÞÁ÷Í¨³£ÐèÒª½øÐÐlimitÏÞÖÆ¡£ 
+	// Stream APIï¿½á¹©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Stream.iterateï¿½ï¿½Stream.generate  ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//	1.ï¿½ï¿½ï¿½ï¿½iterate 
+//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½çº¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ïµï¿½ï¿½Öµï¿½ï¿½Ê±ï¿½ò£¬¶ï¿½ï¿½ï¿½Îªï¿½Ë±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½limitï¿½ï¿½ï¿½Æ¡ï¿½ 
 	 public static void createStreamByFunctionIterate() {
 	        Stream.iterate(0, n -> n + 2)
 	                .limit(10)
 	                .forEach(System.out::println);
-	        //·Æ²¨ÄÉÆõÊýÁÐ
+	        //ï¿½Æ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	        Stream.iterate(new int[]{0, 1}, t -> new int[]{t[1], t[0] + t[1]})
 	                .limit(10)
 	                .map(t -> t[0])
@@ -40,7 +40,7 @@ public class AllLoop {
 	                    .distinct()
 	                    .count();
 	        }
-	        System.out.println("---ÊýÁ¿ÊÇ: " + wordsNumbers + "---");
+	        System.out.println("---ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: " + wordsNumbers + "---");
 	    }
 	
 	
@@ -109,7 +109,7 @@ public class AllLoop {
         languages.forEach(System.out::println);
     }
 	
-	// ²úÉúËæ»úlist
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½list
 	public List<Integer> randomList(){
 		List<Integer> res = new ArrayList<>();
 		res.add(2);
@@ -121,7 +121,7 @@ public class AllLoop {
 //		}
 		return res;
 	}
-	// µü´ú±éÀú
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public int iteratorMaxInteger(List<Integer> list) {
 	    int max = Integer.MIN_VALUE;
 	    for (Iterator it = list.iterator(); it.hasNext(); ) {
@@ -130,7 +130,7 @@ public class AllLoop {
 	    return max;
 	}
 	
-	// for Each Ñ­»·
+	// for Each Ñ­ï¿½ï¿½
 	public int forEachLoopMaxInteger(List<Integer> list) {
 	    int max = Integer.MIN_VALUE;
 	    for (int n : list) {
@@ -139,7 +139,7 @@ public class AllLoop {
 	    return max;
 	}
 	
-	// ³£¹æforÑ­»·
+	// ï¿½ï¿½ï¿½ï¿½forÑ­ï¿½ï¿½
 	public int forMaxInteger(List<Integer> list) {
 	    int max = Integer.MIN_VALUE;
 	    for (int i = 0; i < list.size(); i++) {
@@ -148,19 +148,19 @@ public class AllLoop {
 	    return max;
 	}
 
-	// ²¢ÐÐ stream Á÷±éÀú
+	// ï¿½ï¿½ï¿½ï¿½ stream ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public int parallelStreamMaxInteger(List<Integer> list) {
 	    Optional max = list.parallelStream().reduce(Integer::max);
 	    return (int) max.get();
 	}
 	
-	// streamÁ÷±éÀú
+	// streamï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public int streamMaxInteger(List<Integer> list) {
 	    Optional max = list.stream().reduce(Integer::max);
 	    return (int) max.get();
 	}
 	
-	// lambda±í´ïÊ½±éÀú
+	// lambdaï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½
 	public int lambdaMaxInteger(List<Integer> list) {
 	    return list.stream().reduce(Integer.MIN_VALUE, (a, b) -> Integer.max(a, b));
 	}
